@@ -1,0 +1,21 @@
+* {box-sizing: border-box;}
+body {margin:0;}
+img {width:100%;}
+.slideshow {
+  width:80%;
+  margin:auto;
+  display:flex;
+  align-items:center;
+}
+.slideshow .slide {
+  flex:80%;
+}
+.slideshow .slideimg {
+  transition: 1s;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.arrow {
+  font-size:60px;
+  padding:10px;
+}
